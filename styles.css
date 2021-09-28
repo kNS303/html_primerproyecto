@@ -1,12 +1,15 @@
 body {
     margin: 0 auto;
+    background-color: black;
 }
 
 nav { 
     display: flex;
     justify-content: space-around;
     margin: 10px 0px;
-    background-color: red;
+    background-color: gray;
+    color: aliceblue
+    ;
 }
 
 nav a {
@@ -14,17 +17,22 @@ nav a {
     color: black;
 }
 
-nav a :first-child:before 
-
-
 .hero {
     display: flex;
+    text-align: center;
     flex-direction: column;
+    color: aliceblue;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+    border: aliceblue;
 
 }
 
 .links {
+    color: aliceblue;
     display: flex
+    text-align: center;
+
 }
 
 .links ul {
